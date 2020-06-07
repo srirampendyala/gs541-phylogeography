@@ -1,0 +1,3360 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "7.0.2"
+  },
+  "models": {
+    "country_exposure": {
+      "alphabet": [
+        "Australia",
+        "China",
+        "France",
+        "Germany",
+        "Greece",
+        "Guam",
+        "India",
+        "Iran",
+        "Jamaica",
+        "Japan",
+        "Malaysia",
+        "Netherlands",
+        "Spain",
+        "Sri Lanka",
+        "Taiwan",
+        "Thailand",
+        "USA",
+        "Uruguay",
+        "Vietnam",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.02761428100364677,
+        0.031721703881038676,
+        0.03364985937940986,
+        0.05594750823638082,
+        0.03366753391799016,
+        0.06363614271054875,
+        0.029012047303207122,
+        0.059044471337738304,
+        0.05857826092266661,
+        0.06297269578611062,
+        0.06363614271054877,
+        0.05595853984660499,
+        0.060635921211740114,
+        0.06266706210742587,
+        0.06266706210742566,
+        0.04921511087507607,
+        0.07022701229487911,
+        0.06107260388272819,
+        0.05807604048483353
+      ],
+      "rate": 354.21901428453543,
+      "transition_matrix": [
+        [
+          0.0,
+          0.9950781939552795,
+          1.3098878743795734,
+          0.9175956868842593,
+          2.2148615517052903,
+          0.9157200581867591,
+          1.4193063647623436,
+          1.0845245802057841,
+          1.1713937111383128,
+          0.946115882041908,
+          0.9157200581867591,
+          0.9158621411090461,
+          1.3783715133499403,
+          1.2266772885867,
+          1.226677288586699,
+          0.932915235147959,
+          7.869649388256877,
+          0.9154960456098246,
+          0.918223321645527
+        ],
+        [
+          0.9950781939552795,
+          0.0,
+          1.1609535781810856,
+          0.9909629426064722,
+          0.9172963369187895,
+          0.9158673075029823,
+          0.9962305819359653,
+          0.9418255382314953,
+          0.9161840749366037,
+          0.9158979323407145,
+          0.9158673075029821,
+          1.373721947214491,
+          1.2330401711598145,
+          0.9243246774540997,
+          0.9243246774540997,
+          1.68557105784827,
+          3.4272204281295666,
+          1.230294676907904,
+          1.1802816923084565
+        ],
+        [
+          1.3098878743795734,
+          1.1609535781810856,
+          0.0,
+          1.0096525389937256,
+          0.9164764409447893,
+          0.9234637286721981,
+          1.7744628267151168,
+          0.9171288823174459,
+          0.9160321533392877,
+          0.9155660746857969,
+          0.9234637286721973,
+          0.9159193740302067,
+          0.9153249177124174,
+          0.9162359723107276,
+          0.9162359723107278,
+          0.9164926070745545,
+          4.1737074519263215,
+          0.9153214033619076,
+          0.9166520865973593
+        ],
+        [
+          0.9175956868842593,
+          0.9909629426064722,
+          1.0096525389937256,
+          0.0,
+          0.9156242167988902,
+          0.9153213084181652,
+          0.916339582711917,
+          0.9161358304963569,
+          0.9156242232279096,
+          0.9155211965685686,
+          0.9153213084181652,
+          0.9155849083917659,
+          0.9153266113341346,
+          0.9158188104820676,
+          0.9158188104820676,
+          0.9158856044531746,
+          1.2733607459669252,
+          0.9154219593943318,
+          0.916016371380002
+        ],
+        [
+          2.2148615517052903,
+          0.9172963369187895,
+          0.9164764409447893,
+          0.9156242167988902,
+          0.0,
+          0.9147961898906073,
+          1.3772902463814378,
+          0.9164324580518706,
+          0.9159437539765681,
+          1.312954246218788,
+          0.9147961898906073,
+          0.9148781964618892,
+          0.9148960364536975,
+          0.9159020122997059,
+          0.9159020122997061,
+          0.9152256118703218,
+          3.6805683486530567,
+          0.9148065287998806,
+          0.9156882052612557
+        ],
+        [
+          0.9157200581867591,
+          0.9158673075029823,
+          0.9234637286721981,
+          0.9153213084181652,
+          0.9147961898906073,
+          0.0,
+          1.3567763997367561,
+          0.9157430530913968,
+          0.9151446346814781,
+          0.9151140223663258,
+          0.9189006479610339,
+          0.9149128790755716,
+          0.914804154382446,
+          0.9154355519034704,
+          0.9154355519034704,
+          0.9149221491501693,
+          0.9190434687470396,
+          0.914925132173157,
+          0.9153272979748649
+        ],
+        [
+          1.4193063647623436,
+          0.9962305819359653,
+          1.7744628267151168,
+          0.916339582711917,
+          1.3772902463814378,
+          1.3567763997367561,
+          0.0,
+          0.9573583561992427,
+          0.9153878661205112,
+          0.9149186171242767,
+          1.3567763997367566,
+          0.914728497427781,
+          0.9145303881116504,
+          0.928848284626326,
+          0.9288482846263266,
+          0.9159423035530544,
+          5.246152298571498,
+          0.9144290526085984,
+          0.9157888966878834
+        ],
+        [
+          1.0845245802057841,
+          0.9418255382314953,
+          0.9171288823174459,
+          0.9161358304963569,
+          0.9164324580518706,
+          0.9157430530913968,
+          0.9573583561992427,
+          0.0,
+          0.9160283501777328,
+          0.91583467719636,
+          0.9157430530913968,
+          0.9157313836763648,
+          0.9157491062838323,
+          0.9783005693681848,
+          0.978300569368189,
+          0.9159539916775544,
+          1.123112115634198,
+          0.9156731495674781,
+          0.9161753188416225
+        ],
+        [
+          1.1713937111383128,
+          0.9161840749366037,
+          0.9160321533392877,
+          0.9156242232279096,
+          0.9159437539765681,
+          0.9151446346814781,
+          0.9153878661205112,
+          0.9160283501777328,
+          0.0,
+          0.915366157673952,
+          0.9151446346814781,
+          0.9151887289323777,
+          0.9151811199337369,
+          0.9157717011722154,
+          0.9157717011722154,
+          0.9153076088757929,
+          1.1412199164775916,
+          0.9151657931486521,
+          0.9156433091098977
+        ],
+        [
+          0.946115882041908,
+          0.9158979323407145,
+          0.9155660746857969,
+          0.9155211965685686,
+          1.312954246218788,
+          0.9151140223663258,
+          0.9149186171242767,
+          0.91583467719636,
+          0.915366157673952,
+          0.0,
+          0.9151140223663258,
+          0.9151201618676932,
+          0.9150366624848818,
+          0.9155978421316086,
+          0.9155978421316088,
+          0.9151674674437896,
+          0.9770360940051284,
+          0.9151166412237226,
+          0.9155265484485158
+        ],
+        [
+          0.9157200581867591,
+          0.9158673075029821,
+          0.9234637286721973,
+          0.9153213084181652,
+          0.9147961898906073,
+          0.9189006479610339,
+          1.3567763997367566,
+          0.9157430530913968,
+          0.9151446346814781,
+          0.9151140223663258,
+          0.0,
+          0.9149128790755716,
+          0.914804154382446,
+          0.9154355519034704,
+          0.9154355519034704,
+          0.9149221491501693,
+          0.9190434687470393,
+          0.914925132173157,
+          0.9153272979748649
+        ],
+        [
+          0.9158621411090461,
+          1.373721947214491,
+          0.9159193740302067,
+          0.9155849083917659,
+          0.9148781964618892,
+          0.9149128790755716,
+          0.914728497427781,
+          0.9157313836763648,
+          0.9151887289323777,
+          0.9151201618676932,
+          0.9149128790755716,
+          0.0,
+          0.914818143701091,
+          0.9154199410802489,
+          0.9154199410802489,
+          0.9150621159699248,
+          1.3666518356010295,
+          0.9149043840967419,
+          0.9156595972056034
+        ],
+        [
+          1.3783715133499403,
+          1.2330401711598145,
+          0.9153249177124174,
+          0.9153266113341346,
+          0.9148960364536975,
+          0.914804154382446,
+          0.9145303881116504,
+          0.9157491062838323,
+          0.9151811199337369,
+          0.9150366624848818,
+          0.914804154382446,
+          0.914818143701091,
+          0.0,
+          0.9154474504284129,
+          0.9154474504284129,
+          0.9157171311584764,
+          1.0548728195952144,
+          0.9150618992205486,
+          0.9153810035775282
+        ],
+        [
+          1.2266772885867,
+          0.9243246774540997,
+          0.9162359723107276,
+          0.9158188104820676,
+          0.9159020122997059,
+          0.9154355519034704,
+          0.928848284626326,
+          0.9783005693681848,
+          0.9157717011722154,
+          0.9155978421316086,
+          0.9154355519034704,
+          0.9154199410802489,
+          0.9154474504284129,
+          0.0,
+          1.048446470009805,
+          0.9155176915607599,
+          0.9859180105521644,
+          0.9153973954385718,
+          0.9158393214566636
+        ],
+        [
+          1.226677288586699,
+          0.9243246774540997,
+          0.9162359723107278,
+          0.9158188104820676,
+          0.9159020122997061,
+          0.9154355519034704,
+          0.9288482846263266,
+          0.978300569368189,
+          0.9157717011722154,
+          0.9155978421316088,
+          0.9154355519034704,
+          0.9154199410802489,
+          0.9154474504284129,
+          1.048446470009805,
+          0.0,
+          0.9155176915607599,
+          0.9859180105521665,
+          0.9153973954385718,
+          0.9158393214566638
+        ],
+        [
+          0.932915235147959,
+          1.68557105784827,
+          0.9164926070745545,
+          0.9158856044531746,
+          0.9152256118703218,
+          0.9149221491501693,
+          0.9159423035530544,
+          0.9159539916775544,
+          0.9153076088757929,
+          0.9151674674437896,
+          0.9149221491501693,
+          0.9150621159699248,
+          0.9157171311584764,
+          0.9155176915607599,
+          0.9155176915607599,
+          0.0,
+          1.9708136888474395,
+          0.9157671768258469,
+          0.916041010244164
+        ],
+        [
+          7.869649388256877,
+          3.4272204281295666,
+          4.1737074519263215,
+          1.2733607459669252,
+          3.6805683486530567,
+          0.9190434687470396,
+          5.246152298571498,
+          1.123112115634198,
+          1.1412199164775916,
+          0.9770360940051284,
+          0.9190434687470393,
+          1.3666518356010295,
+          1.0548728195952144,
+          0.9859180105521644,
+          0.9859180105521665,
+          1.9708136888474395,
+          0.0,
+          1.0528838670827372,
+          1.1676652553170077
+        ],
+        [
+          0.9154960456098246,
+          1.230294676907904,
+          0.9153214033619076,
+          0.9154219593943318,
+          0.9148065287998806,
+          0.914925132173157,
+          0.9144290526085984,
+          0.9156731495674781,
+          0.9151657931486521,
+          0.9151166412237226,
+          0.914925132173157,
+          0.9149043840967419,
+          0.9150618992205486,
+          0.9153973954385718,
+          0.9153973954385718,
+          0.9157671768258469,
+          1.0528838670827372,
+          0.0,
+          0.9154769205001994
+        ],
+        [
+          0.918223321645527,
+          1.1802816923084565,
+          0.9166520865973593,
+          0.916016371380002,
+          0.9156882052612557,
+          0.9153272979748649,
+          0.9157888966878834,
+          0.9161753188416225,
+          0.9156433091098977,
+          0.9155265484485158,
+          0.9153272979748649,
+          0.9156595972056034,
+          0.9153810035775282,
+          0.9158393214566636,
+          0.9158393214566638,
+          0.916041010244164,
+          1.1676652553170077,
+          0.9154769205001994,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "Australia/VIC05/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC1018/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC1038/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC1045/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC1062/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC1175/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC1186/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC1208/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC1251/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC127/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC14/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC187/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC207/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC248/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC302/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC548/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC645/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC824/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC851/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC927/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC969/2020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "China/Beijing_IME-BJ05/2020": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "China/WHUHnCoV020/2020": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "China/Wuhan_YB012611/2020": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "ENV/USA/UF-11/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "France/10006HC/2020": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "France/10015BY/2020": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "France/10023FD/2020": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "France/10041MR/2020": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "France/10045DZ/2020": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "France/10060KV/2020": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "France/10068ND/2020": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "France/10078MA/2020": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "France/40003KA/2020": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "France/50001AR/2020": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Germany/BavPat1-ChVir929/2020": {
+      "country_exposure": "Germany",
+      "country_exposure_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "Germany/BavPat3-ChVir1020/2020": {
+      "country_exposure": "Germany",
+      "country_exposure_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "Greece/139_32716/2020": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "Greece/209_33926/2020": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Greece/222_33921/2020": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Greece/226_35576/2020": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "Greece/227_35969/2020": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Greece/246_32206/2020": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Greece/248_32261/2020": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Greece/259_31928/2020": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Greece/37_35684/2020": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "Greece/41_36861/2020": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Guam/GU-NHG-01/2020": {
+      "country_exposure": "Guam",
+      "country_exposure_confidence": {
+        "Guam": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Hangzhou/HZ-1/2020": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC14/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC20/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC21/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC26/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC29/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC51/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC56a/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC72b/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC8/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC85/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC88a/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC9/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC96/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC97a/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "India/GBRC97b/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "India/GMC-KP1125/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GMCKN318/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/GMCTC469/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/nimh-2873/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "India/nimh-3952/2020": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Iran/HGRC-1.1-IPI-8206/2020": {
+      "country_exposure": "Iran",
+      "country_exposure_confidence": {
+        "Iran": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Jamaica/JM-CDC-7286/2020": {
+      "country_exposure": "Jamaica",
+      "country_exposure_confidence": {
+        "Jamaica": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Japan/P4-6/2020": {
+      "country_exposure": "Japan",
+      "country_exposure_confidence": {
+        "Japan": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Malaysia/189332/2020": {
+      "country_exposure": "Malaysia",
+      "country_exposure_confidence": {
+        "Malaysia": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000002": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004586815978692593,
+        "France": 0.0010787078932619069,
+        "India": 0.0015494129214689732,
+        "USA": 0.9906595896530618
+      },
+      "country_exposure_entropy": 0.06888290714550836
+    },
+    "NODE_0000004": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.018640245186132214,
+        "China": 0.0038260743360094642,
+        "India": 0.001895704410451249,
+        "USA": 0.9718178761562078
+      },
+      "country_exposure_entropy": 0.16429209713486712
+    },
+    "NODE_0000006": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "France": 0.003479847467821573,
+        "India": 0.9736096625403856,
+        "USA": 0.02009762739774921
+      },
+      "country_exposure_entropy": 0.1471126866354785
+    },
+    "NODE_0000007": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "France": 0.0013689026762657313,
+        "India": 0.929404354218724,
+        "USA": 0.06606045953297504
+      },
+      "country_exposure_entropy": 0.28270285499875536
+    },
+    "NODE_0000010": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 0.8326498381461076,
+        "Greece": 0.07097866590942993,
+        "India": 0.0011532970650383952,
+        "USA": 0.08925246581469592
+      },
+      "country_exposure_entropy": 0.6102650280583249
+    },
+    "NODE_0000012": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.02054714551753415,
+        "India": 0.003807185549622514,
+        "Thailand": 0.007519631676064631,
+        "USA": 0.9601205497837795
+      },
+      "country_exposure_entropy": 0.232324732400088
+    },
+    "NODE_0000013": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0068151280831061116,
+        "France": 0.001123573441677036,
+        "India": 0.001810885479545229,
+        "USA": 0.9872296594956513
+      },
+      "country_exposure_entropy": 0.08950659578467045
+    },
+    "NODE_0000014": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0068151280831061116,
+        "France": 0.001123573441677036,
+        "India": 0.001810885479545229,
+        "USA": 0.9872296594956513
+      },
+      "country_exposure_entropy": 0.08950659578467045
+    },
+    "NODE_0000015": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.006629677918885669,
+        "France": 0.021803004824517143,
+        "India": 0.0025477976019665912,
+        "USA": 0.9646026512052335
+      },
+      "country_exposure_entropy": 0.20010875447855364
+    },
+    "NODE_0000018": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.10746650354294585,
+        "China": 0.09666560249287633,
+        "India": 0.15286427289376228,
+        "USA": 0.5968408144689045
+      },
+      "country_exposure_entropy": 1.3064091904897415
+    },
+    "NODE_0000019": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.23567432662465793,
+        "Iran": 0.22424620970395703,
+        "Sri Lanka": 0.05350287251295692,
+        "USA": 0.27931073763180686
+      },
+      "country_exposure_entropy": 1.9622410278692297
+    },
+    "NODE_0000020": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 0.4464408325932275,
+        "Sri Lanka": 0.16711566969104127,
+        "Taiwan": 0.16711566969104083,
+        "USA": 0.11252627270604741
+      },
+      "country_exposure_entropy": 1.6638057049279904
+    },
+    "NODE_0000021": {
+      "country_exposure": "Spain",
+      "country_exposure_confidence": {
+        "Spain": 0.9983932644978334
+      },
+      "country_exposure_entropy": 0.01554210494810275
+    },
+    "NODE_0000022": {
+      "country_exposure": "Spain",
+      "country_exposure_confidence": {
+        "Spain": 0.9983552952119564
+      },
+      "country_exposure_entropy": 0.015618374613274475
+    },
+    "NODE_0000023": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "Australia": 0.007202782755118477,
+        "France": 0.013694758684487239,
+        "India": 0.8721356947341476,
+        "USA": 0.08885436667104105
+      },
+      "country_exposure_entropy": 0.5409702082790252
+    },
+    "NODE_0000024": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "France": 0.04528146368010945,
+        "Guam": 0.016178957949763303,
+        "India": 0.8687591075539342,
+        "USA": 0.04764073075709505
+      },
+      "country_exposure_entropy": 0.5852433202320041
+    },
+    "NODE_0000025": {
+      "country_exposure": "Spain",
+      "country_exposure_confidence": {
+        "Australia": 0.025584408881110545,
+        "Spain": 0.9646233458617792,
+        "USA": 0.0033999838040045184
+      },
+      "country_exposure_entropy": 0.19781621573901187
+    },
+    "NODE_0000026": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 0.848902268582161,
+        "France": 0.008928063402162446,
+        "India": 0.010580516160174046,
+        "USA": 0.11316402536298786
+      },
+      "country_exposure_entropy": 0.5877178378508826
+    },
+    "NODE_0000029": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.15510051411833733,
+        "China": 0.005305622069264094,
+        "India": 0.011440082969457236,
+        "USA": 0.8209041158450894
+      },
+      "country_exposure_entropy": 0.578658613749032
+    },
+    "NODE_0000030": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 0.8279338689908955,
+        "Greece": 0.014415940872560602,
+        "India": 0.001574163694360823,
+        "USA": 0.15204747891822162
+      },
+      "country_exposure_entropy": 0.5466128635504136
+    },
+    "NODE_0000031": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.005660796898518107,
+        "France": 0.0011590329144365121,
+        "India": 0.0018600856553178339,
+        "USA": 0.9889596656773437
+      },
+      "country_exposure_entropy": 0.07894424525700552
+    },
+    "NODE_0000032": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.006108668921625187,
+        "France": 0.001255177492094897,
+        "India": 0.0020191348584670593,
+        "USA": 0.9880864984531277
+      },
+      "country_exposure_entropy": 0.08422369552364845
+    },
+    "NODE_0000033": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.06607576148600175,
+        "India": 0.00916350415309193,
+        "Thailand": 0.08853433827275736,
+        "USA": 0.8102888155972865
+      },
+      "country_exposure_entropy": 0.7633807752552858
+    },
+    "NODE_0000034": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004345464785450618,
+        "India": 0.0015233438059319112,
+        "USA": 0.991106131508826
+      },
+      "country_exposure_entropy": 0.06610138298361552
+    },
+    "NODE_0000035": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004345464785450618,
+        "India": 0.0015233438059319112,
+        "USA": 0.991106131508826
+      },
+      "country_exposure_entropy": 0.06610138298361552
+    },
+    "NODE_0000036": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.006310462363580678,
+        "France": 0.0012782866831692029,
+        "India": 0.002064243044958087,
+        "USA": 0.9877828990542927
+      },
+      "country_exposure_entropy": 0.08594082098126037
+    },
+    "NODE_0000037": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004379365758861069,
+        "India": 0.0015296654226687363,
+        "USA": 0.9910586158784028
+      },
+      "country_exposure_entropy": 0.0663815982251914
+    },
+    "NODE_0000038": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.005238066457112223,
+        "France": 0.0011147781748506915,
+        "India": 0.0017740762986707126,
+        "USA": 0.98957821317557
+      },
+      "country_exposure_entropy": 0.07538642315929037
+    },
+    "NODE_0000039": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004586815978692593,
+        "France": 0.0010787078932619069,
+        "India": 0.0015494129214689732,
+        "USA": 0.9906595896530618
+      },
+      "country_exposure_entropy": 0.06888290714550836
+    },
+    "NODE_0000040": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004198382719302752,
+        "India": 0.0014889400180785283,
+        "USA": 0.991333165061677
+      },
+      "country_exposure_entropy": 0.06473038091463515
+    },
+    "NODE_0000041": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 0.7888285307249072,
+        "Thailand": 0.004573140927078107,
+        "USA": 0.20364806089598908
+      },
+      "country_exposure_entropy": 0.5580755485527525
+    },
+    "NODE_0000042": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 0.8531123924669752,
+        "France": 0.025772740920552567,
+        "India": 0.004617245892493419,
+        "USA": 0.10021790310027247
+      },
+      "country_exposure_entropy": 0.5915725827848058
+    },
+    "NODE_0000043": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 0.9810181909080765,
+        "France": 0.0014195098862828143,
+        "USA": 0.014659023981582597
+      },
+      "country_exposure_entropy": 0.11427936728515198
+    },
+    "NODE_0000044": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0012560062479468072,
+        "China": 0.008709301021645154,
+        "USA": 0.9888268335158484
+      },
+      "country_exposure_entropy": 0.07119404439034357
+    },
+    "NODE_0000045": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 0.9673165529814771,
+        "USA": 0.022413740927953868,
+        "Vietnam": 0.00434819295250952
+      },
+      "country_exposure_entropy": 0.18684689326776693
+    },
+    "NODE_0000046": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "Australia": 0.01698339917726485,
+        "China": 0.41780679939695053,
+        "USA": 0.3105072889860621,
+        "Vietnam": 0.1863699559506447
+      },
+      "country_exposure_entropy": 1.4741307745645025
+    },
+    "NODE_0000047": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.03713199784878839,
+        "China": 0.07210962522933659,
+        "USA": 0.8548607226366817,
+        "Vietnam": 0.011855741024168243
+      },
+      "country_exposure_entropy": 0.6447662453815525
+    },
+    "NODE_0000048": {
+      "country_exposure": "Spain",
+      "country_exposure_confidence": {
+        "China": 0.02112117382552583,
+        "Spain": 0.9653296248135567,
+        "USA": 0.0056317370510387
+      },
+      "country_exposure_entropy": 0.20473545838484367
+    },
+    "NODE_0000049": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0912344894551383,
+        "China": 0.03372857588421051,
+        "India": 0.0036590994360533218,
+        "USA": 0.860401536954591
+      },
+      "country_exposure_entropy": 0.5567034740156888
+    },
+    "NODE_0000051": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.3072192833548954,
+        "China": 0.04634232356852465,
+        "France": 0.004837631306906344,
+        "USA": 0.6269075611139358
+      },
+      "country_exposure_entropy": 0.9203556618576106
+    },
+    "NODE_0000052": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0056094871579376576,
+        "China": 0.07844714562592203,
+        "India": 0.0026975243446504525,
+        "USA": 0.9036600891566873
+      },
+      "country_exposure_entropy": 0.4036561112763606
+    },
+    "NODE_0000053": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9998279061447314
+      },
+      "country_exposure_entropy": 0.0016693200313477223
+    },
+    "NODE_0000054": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.09857772428418028,
+        "China": 0.1748895813870206,
+        "France": 0.015171954040368366,
+        "USA": 0.6883251837666496
+      },
+      "country_exposure_entropy": 0.9977656644665489
+    },
+    "NODE_0000055": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.03471686625813027,
+        "China": 0.030933516367062423,
+        "France": 0.042746681686737266,
+        "USA": 0.8783895129372719
+      },
+      "country_exposure_entropy": 0.5587516716418489
+    },
+    "NODE_0000056": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.01633620877858414,
+        "China": 0.008218175356275432,
+        "France": 0.1772849938165784,
+        "USA": 0.7833790926989693
+      },
+      "country_exposure_entropy": 0.6989425228017685
+    },
+    "NODE_0000058": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.011774490023668061,
+        "China": 0.004075433705335581,
+        "France": 0.006976488296788434,
+        "USA": 0.9717695123245899
+      },
+      "country_exposure_entropy": 0.17528418003496013
+    },
+    "NODE_0000059": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.007527860528075971,
+        "France": 0.0021418900170557943,
+        "India": 0.0021776795363640596,
+        "USA": 0.9850014151605734
+      },
+      "country_exposure_entropy": 0.10256191304369769
+    },
+    "NODE_0000060": {
+      "country_exposure": "Germany",
+      "country_exposure_confidence": {
+        "China": 0.0022066786673979547,
+        "France": 0.0033509897872016177,
+        "Germany": 0.9750513696004045,
+        "USA": 0.01174408567839366
+      },
+      "country_exposure_entropy": 0.16707526374120454
+    },
+    "NODE_0000062": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.00333405392742291,
+        "India": 0.0012381349684859072,
+        "USA": 0.9928365054143696
+      },
+      "country_exposure_entropy": 0.055246784889309807
+    },
+    "NODE_0000065": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.028196036645785207,
+        "France": 0.03284366555689684,
+        "India": 0.13915008776446455,
+        "USA": 0.790046284938897
+      },
+      "country_exposure_entropy": 0.742388399148048
+    },
+    "NODE_0000066": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.017456520395555487,
+        "France": 0.12367519760361126,
+        "India": 0.0594130772871732,
+        "USA": 0.7905147121047726
+      },
+      "country_exposure_entropy": 0.7473085274464815
+    },
+    "NODE_0000068": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "China": 0.2378515484224181,
+        "France": 0.3387505140953279,
+        "Germany": 0.045035630923535575,
+        "USA": 0.3136520214508024
+      },
+      "country_exposure_entropy": 1.5556030779020624
+    },
+    "NODE_0000069": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "China": 0.09017879291331606,
+        "France": 0.138282461695341,
+        "Germany": 0.16684914068897203,
+        "USA": 0.5173449780996062
+      },
+      "country_exposure_entropy": 1.5553800290578923
+    },
+    "NODE_0000070": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "Australia": 0.04352323164238708,
+        "France": 0.005143405662109091,
+        "India": 0.5725426344846536,
+        "USA": 0.37370363106546983
+      },
+      "country_exposure_entropy": 0.8899641314804833
+    },
+    "NODE_0000071": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.02920815952366808,
+        "France": 0.007592860422201511,
+        "India": 0.0063412336360055615,
+        "USA": 0.9457403136430657
+      },
+      "country_exposure_entropy": 0.2929791929023112
+    },
+    "NODE_0000072": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "Australia": 0.060588439632766715,
+        "France": 0.002984065345281853,
+        "India": 0.6211356404577235,
+        "USA": 0.3082155842440708
+      },
+      "country_exposure_entropy": 0.8986485987335568
+    },
+    "NODE_0000073": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.05013411510113442,
+        "France": 0.0016296698864072174,
+        "India": 0.01723421596648806,
+        "USA": 0.9266027428693103
+      },
+      "country_exposure_entropy": 0.33505137006513463
+    },
+    "NODE_0000074": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "Australia": 0.05138621275983698,
+        "France": 0.0018946047887949042,
+        "India": 0.6814991092024427,
+        "USA": 0.26143637593211094
+      },
+      "country_exposure_entropy": 0.8067576941617451
+    },
+    "NODE_0000075": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "Australia": 0.12164674712295473,
+        "France": 0.0018391020734155514,
+        "India": 0.6969791778438946,
+        "USA": 0.17107700448300056
+      },
+      "country_exposure_entropy": 0.8838472721470523
+    },
+    "NODE_0000076": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "Australia": 0.01565781375717818,
+        "France": 0.0017394565005580107,
+        "India": 0.6809897437649173,
+        "USA": 0.29717479677246017
+      },
+      "country_exposure_entropy": 0.733459131506579
+    },
+    "NODE_0000077": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "Australia": 0.022249234141062234,
+        "France": 0.7055441966146468,
+        "India": 0.04811511095270949,
+        "USA": 0.22339457565882384
+      },
+      "country_exposure_entropy": 0.818379389844853
+    },
+    "NODE_0000078": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.007386755588157118,
+        "France": 0.002186722340223263,
+        "India": 0.09203484996300965,
+        "USA": 0.8929965064355224
+      },
+      "country_exposure_entropy": 0.41136356969484245
+    },
+    "NODE_0000079": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "Australia": 0.002132890503295418,
+        "India": 0.9108823654847928,
+        "USA": 0.08469749475415744
+      },
+      "country_exposure_entropy": 0.32668878759998643
+    },
+    "NODE_0000080": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 0.9366951813880605,
+        "France": 0.015177910632956095,
+        "India": 0.0015407959392031332,
+        "USA": 0.04263730186129086
+      },
+      "country_exposure_entropy": 0.30157065426802343
+    },
+    "NODE_0000081": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "Australia": 0.0014915405932107773,
+        "India": 0.8776243676879892,
+        "USA": 0.11753721751197163
+      },
+      "country_exposure_entropy": 0.40334726191731995
+    },
+    "NODE_0000082": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.27959069506750833,
+        "Greece": 0.0034663761390272604,
+        "India": 0.11796511367860106,
+        "USA": 0.5853135323630466
+      },
+      "country_exposure_entropy": 1.0346739127571052
+    },
+    "NODE_0000083": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 0.9948673450726281,
+        "USA": 0.004675133329790849
+      },
+      "country_exposure_entropy": 0.03488286939117581
+    },
+    "NODE_0000085": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 0.9992495158189629
+      },
+      "country_exposure_entropy": 0.006850855010241977
+    },
+    "NODE_0000089": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Australia": 0.1744687219304076,
+        "Greece": 0.40429439604565426,
+        "Japan": 0.013810668383435325,
+        "USA": 0.3869306427985246
+      },
+      "country_exposure_entropy": 1.2293846292738058
+    },
+    "NODE_0000090": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Australia": 0.053122787972037865,
+        "Greece": 0.6450799732318369,
+        "Japan": 0.12800336284294236,
+        "USA": 0.1347793457559916
+      },
+      "country_exposure_entropy": 1.2028627088164576
+    },
+    "NODE_0000091": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 0.44305171197920024,
+        "Greece": 0.38471745503395516,
+        "Japan": 0.0021190604929739254,
+        "USA": 0.1610556003248218
+      },
+      "country_exposure_entropy": 1.1012665239208044
+    },
+    "NODE_0000092": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004118308490185906,
+        "Greece": 0.018708031363486026,
+        "USA": 0.9768727948060674
+      },
+      "country_exposure_entropy": 0.12253234839560817
+    },
+    "NODE_0000093": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 0.96513237979609,
+        "Greece": 0.012099749981858076,
+        "USA": 0.020857545024565997
+      },
+      "country_exposure_entropy": 0.1855471125655432
+    },
+    "NODE_0000094": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Australia": 0.3391943047978256,
+        "Greece": 0.5525699879453388,
+        "India": 0.0011957977303802326,
+        "USA": 0.10174022699185702
+      },
+      "country_exposure_entropy": 0.9769152748373687
+    },
+    "NODE_0000095": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Australia": 0.4118189813425213,
+        "Greece": 0.4509527926732583,
+        "India": 0.0012816287346644657,
+        "USA": 0.1302238067518758
+      },
+      "country_exposure_entropy": 1.0432784060107227
+    },
+    "NODE_0000096": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Australia": 0.13544442038168172,
+        "Greece": 0.5289654903594467,
+        "India": 0.002542502213855965,
+        "USA": 0.32320075586487945
+      },
+      "country_exposure_entropy": 1.0593975390823365
+    },
+    "NODE_0000097": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Australia": 0.009716137008029863,
+        "Greece": 0.9803485000151374,
+        "USA": 0.008416596118034608
+      },
+      "country_exposure_entropy": 0.118685288402753
+    },
+    "NODE_0000098": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 0.997517018858589,
+        "USA": 0.0016002155648416247
+      },
+      "country_exposure_entropy": 0.020369811551213465
+    },
+    "NODE_0000099": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Greece": 0.9879598655566759,
+        "India": 0.002018326231956254,
+        "USA": 0.008738943408582526
+      },
+      "country_exposure_entropy": 0.07730971206383525
+    },
+    "NODE_0000100": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Australia": 0.0010797015846351293,
+        "Greece": 0.955452619220621,
+        "India": 0.023408450157786444,
+        "USA": 0.01585781266302149
+      },
+      "country_exposure_entropy": 0.2387794035691685
+    },
+    "NODE_0000101": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004113051362413321,
+        "Greece": 0.00259709890989779,
+        "India": 0.001318153509715378,
+        "USA": 0.9898288327858143
+      },
+      "country_exposure_entropy": 0.07444423055452769
+    },
+    "NODE_0000102": {
+      "country_exposure": "Greece",
+      "country_exposure_confidence": {
+        "Australia": 0.0017010968841677037,
+        "Greece": 0.9492361543375032,
+        "India": 0.001045025545151421,
+        "USA": 0.04559669378051556
+      },
+      "country_exposure_entropy": 0.229312904318783
+    },
+    "NODE_0000104": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.001601916547837393,
+        "India": 0.02223083251161637,
+        "USA": 0.9745813908760813
+      },
+      "country_exposure_entropy": 0.13250447614924718
+    },
+    "NODE_0000105": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 0.9508788873608384,
+        "USA": 0.04627410330375926
+      },
+      "country_exposure_entropy": 0.21402976270951365
+    },
+    "NODE_0000106": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.02479017341360806,
+        "France": 0.023916687429573143,
+        "India": 0.003222012062877161,
+        "USA": 0.9433971784208297
+      },
+      "country_exposure_entropy": 0.2900107054343492
+    },
+    "NODE_0000107": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0075317513026295696,
+        "France": 0.0036666409591517898,
+        "India": 0.0017657560246925946,
+        "USA": 0.9846076231546371
+      },
+      "country_exposure_entropy": 0.10365678611992209
+    },
+    "NODE_0000108": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.009184194387487129,
+        "France": 0.004214891979719905,
+        "India": 0.0020861462793840438,
+        "USA": 0.9817836133242285
+      },
+      "country_exposure_entropy": 0.11895093863984571
+    },
+    "NODE_0000109": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004294107985607337,
+        "France": 0.0010003555964636617,
+        "India": 0.0014925990666456181,
+        "USA": 0.991179367156626
+      },
+      "country_exposure_entropy": 0.06566585610162703
+    },
+    "NODE_0000111": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.013061281413199375,
+        "Greece": 0.05524370106108869,
+        "India": 0.02527463985876059,
+        "USA": 0.8996616616573534
+      },
+      "country_exposure_entropy": 0.4543986945314933
+    },
+    "NODE_0000112": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.005936889976665368,
+        "Greece": 0.0065679226692684535,
+        "India": 0.004771069464495188,
+        "USA": 0.9795820446911736
+      },
+      "country_exposure_entropy": 0.1338645430887225
+    },
+    "NODE_0000113": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.26405699512579556,
+        "USA": 0.734776806790684
+      },
+      "country_exposure_entropy": 0.5869651233359638
+    },
+    "NODE_0000114": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.009815838221911784,
+        "Greece": 0.010531561744263894,
+        "India": 0.1102177870960939,
+        "USA": 0.8634564426396651
+      },
+      "country_exposure_entropy": 0.5066533560024227
+    },
+    "NODE_0000115": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0071413202114200824,
+        "Greece": 0.0036484931835698304,
+        "India": 0.22717091851885368,
+        "USA": 0.7538404121453883
+      },
+      "country_exposure_entropy": 0.6635764311231317
+    },
+    "NODE_0000116": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.00796757489415716,
+        "Greece": 0.0029245985144495845,
+        "India": 0.10530601926917998,
+        "USA": 0.8786787893994318
+      },
+      "country_exposure_entropy": 0.44389181387242027
+    },
+    "NODE_0000117": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.08246910734701196,
+        "France": 0.1494365762598993,
+        "India": 0.004847093574509141,
+        "USA": 0.7521474123933917
+      },
+      "country_exposure_entropy": 0.8078968162547792
+    },
+    "NODE_0000118": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0067508995997323145,
+        "France": 0.002795605037293084,
+        "India": 0.21588147310003528,
+        "USA": 0.7674020345701233
+      },
+      "country_exposure_entropy": 0.636707479412397
+    },
+    "NODE_0000121": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.005805430071694614,
+        "France": 0.001507758917033064,
+        "India": 0.0017893390336599284,
+        "USA": 0.9885613977037387
+      },
+      "country_exposure_entropy": 0.08139105164784066
+    },
+    "NODE_0000122": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 0.997244983586294,
+        "USA": 0.002461814395299828
+      },
+      "country_exposure_entropy": 0.020693688751180234
+    },
+    "NODE_0000123": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.01598677901553699,
+        "Greece": 0.3419017778887607,
+        "USA": 0.6412406239604272
+      },
+      "country_exposure_entropy": 0.7251546163092321
+    },
+    "NODE_0000124": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 0.9993659191050593
+      },
+      "country_exposure_entropy": 0.0059399559059302295
+    },
+    "NODE_0000127": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0049461950064542265,
+        "France": 0.016647028330868733,
+        "India": 0.002218782919715155,
+        "USA": 0.9729505305021413
+      },
+      "country_exposure_entropy": 0.16055045418197178
+    },
+    "NODE_0000131": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004900339629827208,
+        "France": 0.0012547724890062222,
+        "India": 0.015304529861071952,
+        "USA": 0.9756621741308685
+      },
+      "country_exposure_entropy": 0.14542274919984854
+    },
+    "NODE_0000132": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0042024894186275,
+        "India": 0.0014880058128182098,
+        "USA": 0.9913325348671296
+      },
+      "country_exposure_entropy": 0.06472691590556481
+    },
+    "NODE_0000133": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 0.9565222257836618,
+        "USA": 0.0406884105801589
+      },
+      "country_exposure_entropy": 0.1961824390341162
+    },
+    "NODE_0000134": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.005010271398547259,
+        "France": 0.0010900465957189864,
+        "India": 0.0017253494773168969,
+        "USA": 0.989915895423461
+      },
+      "country_exposure_entropy": 0.0734217979832784
+    },
+    "NODE_0000135": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0041601290404186,
+        "India": 0.0014821029228611912,
+        "USA": 0.991386144581712
+      },
+      "country_exposure_entropy": 0.06441660676968093
+    },
+    "NODE_0000136": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 0.997244983586294,
+        "USA": 0.002461814395299828
+      },
+      "country_exposure_entropy": 0.020693688751180234
+    },
+    "NODE_0000137": {
+      "country_exposure": "India",
+      "country_exposure_confidence": {
+        "India": 0.9993659191050593
+      },
+      "country_exposure_entropy": 0.0059399559059302295
+    },
+    "NODE_0000138": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9999864659065095
+      },
+      "country_exposure_entropy": 0.0001652714901715741
+    },
+    "NODE_0000139": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.01785162459302157,
+        "France": 0.005708248624822526,
+        "India": 0.0028054636507313813,
+        "USA": 0.9701879649997184
+      },
+      "country_exposure_entropy": 0.17398903141675745
+    },
+    "NODE_0000140": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.04169763181240585,
+        "France": 0.00267449797813778,
+        "India": 0.003034846791357469,
+        "USA": 0.9479903599187559
+      },
+      "country_exposure_entropy": 0.25131029195123056
+    },
+    "NODE_0000141": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.003307832454186993,
+        "India": 0.0012379759835706831,
+        "USA": 0.9928635531118482
+      },
+      "country_exposure_entropy": 0.055090574980917455
+    },
+    "NODE_0000142": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.134285344107771,
+        "India": 0.004457561565867581,
+        "Jamaica": 0.005945537934794593,
+        "USA": 0.8420852667668952
+      },
+      "country_exposure_entropy": 0.5561592191665926
+    },
+    "NODE_0000143": {
+      "country_exposure": "Australia",
+      "country_exposure_confidence": {
+        "Australia": 0.49800876019227575,
+        "Greece": 0.00672151847594628,
+        "Jamaica": 0.10263264015609404,
+        "USA": 0.35311217111229826
+      },
+      "country_exposure_entropy": 1.2129227249999899
+    },
+    "NODE_0000144": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.3222641212038012,
+        "USA": 0.6766832139653681
+      },
+      "country_exposure_entropy": 0.6384648873249582
+    },
+    "NODE_0000145": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.4131008520885774,
+        "Greece": 0.0013305561777448942,
+        "India": 0.0014934448870532655,
+        "USA": 0.5802151842345584
+      },
+      "country_exposure_entropy": 0.7303308531046355
+    },
+    "NODE_0000146": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.030164870058687853,
+        "France": 0.0015312441308468888,
+        "India": 0.0023128431767047743,
+        "USA": 0.9621130182500031
+      },
+      "country_exposure_entropy": 0.1967780163163753
+    },
+    "NODE_0000147": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.005150828173359446,
+        "France": 0.001107689664753915,
+        "India": 0.0017588672206081657,
+        "USA": 0.9896976822948941
+      },
+      "country_exposure_entropy": 0.0747053289964292
+    },
+    "NODE_0000148": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.014219711846781424,
+        "France": 0.0015165202779166675,
+        "India": 0.002266623836522142,
+        "USA": 0.9790818614547986
+      },
+      "country_exposure_entropy": 0.12788297997144082
+    },
+    "NODE_0000149": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.00569714987749692,
+        "France": 0.0010087867880211238,
+        "India": 0.001564297432232832,
+        "USA": 0.9896118283204061
+      },
+      "country_exposure_entropy": 0.07430842972359053
+    },
+    "NODE_0000150": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.00570858525886517,
+        "France": 0.0010090923110305109,
+        "India": 0.0015651957450542302,
+        "USA": 0.9895988067496487
+      },
+      "country_exposure_entropy": 0.07437836995920105
+    },
+    "NODE_0000151": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.007498687783354936,
+        "France": 0.001715253777638206,
+        "India": 0.0019123562747806115,
+        "USA": 0.9864207572496774
+      },
+      "country_exposure_entropy": 0.09291259646324934
+    },
+    "NODE_0000153": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.014263153574679166,
+        "France": 0.026575900223956776,
+        "India": 0.0036586287495909615,
+        "USA": 0.9508863215343101
+      },
+      "country_exposure_entropy": 0.2605175679800481
+    },
+    "NODE_0000154": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.010932464497102452,
+        "France": 0.15263254123938697,
+        "India": 0.005409480525933807,
+        "USA": 0.822096626131376
+      },
+      "country_exposure_entropy": 0.5895267886609109
+    },
+    "NODE_0000155": {
+      "country_exposure": "France",
+      "country_exposure_confidence": {
+        "France": 0.9625182291652205,
+        "USA": 0.03424915651197617
+      },
+      "country_exposure_entropy": 0.17893721434830145
+    },
+    "NODE_0000156": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0056276917818700685,
+        "France": 0.018870333760854802,
+        "India": 0.002405753321101443,
+        "USA": 0.9696526784616726
+      },
+      "country_exposure_entropy": 0.17578736363658515
+    },
+    "NODE_0000157": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0158121753123022,
+        "France": 0.005569423209727322,
+        "India": 0.002740450845565838,
+        "USA": 0.972581729564591
+      },
+      "country_exposure_entropy": 0.16341200062309968
+    },
+    "NODE_0000158": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.008410708168925462,
+        "France": 0.0019254401895076765,
+        "India": 0.00219790179833579,
+        "USA": 0.9847607653852763
+      },
+      "country_exposure_entropy": 0.10236520609081172
+    },
+    "NODE_0000159": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0047314130147899,
+        "France": 0.0010528162173588035,
+        "India": 0.0015512231636108367,
+        "USA": 0.990582791558258
+      },
+      "country_exposure_entropy": 0.06915600030707925
+    },
+    "NODE_0000160": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0047314130147899,
+        "France": 0.0010528162173588035,
+        "India": 0.0015512231636108367,
+        "USA": 0.990582791558258
+      },
+      "country_exposure_entropy": 0.06915600030707925
+    },
+    "NODE_0000161": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.03162518890775615,
+        "France": 0.002152074398042399,
+        "India": 0.0024634807029860106,
+        "USA": 0.9604858191768634
+      },
+      "country_exposure_entropy": 0.20154490920154466
+    },
+    "NODE_0000162": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.008593701323032738,
+        "France": 0.0010957366492142565,
+        "India": 0.0016061597921571728,
+        "USA": 0.9864921164512431
+      },
+      "country_exposure_entropy": 0.09026799118943092
+    },
+    "NODE_0000163": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004577087374548393,
+        "France": 0.0010263862129443761,
+        "India": 0.0015111710126239635,
+        "USA": 0.9908335487819973
+      },
+      "country_exposure_entropy": 0.06764766716877955
+    },
+    "NODE_0000164": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.10239522290220782,
+        "France": 0.0017637777514198085,
+        "India": 0.0026007345763044095,
+        "USA": 0.889041470003594
+      },
+      "country_exposure_entropy": 0.39665054733827754
+    },
+    "NODE_0000165": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.36711382630411254,
+        "Greece": 0.0014074040109216463,
+        "India": 0.001987059135688176,
+        "USA": 0.6256861723304545
+      },
+      "country_exposure_entropy": 0.7125765511900571
+    },
+    "NODE_0000166": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.003307832454186993,
+        "India": 0.0012379759835706831,
+        "USA": 0.9928635531118482
+      },
+      "country_exposure_entropy": 0.055090574980917455
+    },
+    "NODE_0000167": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.44779196177647984,
+        "Greece": 0.0015158914998922128,
+        "India": 0.0017193533373941145,
+        "USA": 0.5447281061205361
+      },
+      "country_exposure_entropy": 0.7448058024596194
+    },
+    "NODE_0000168": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.44779196177647984,
+        "Greece": 0.0015158914998922128,
+        "India": 0.0017193533373941145,
+        "USA": 0.5447281061205361
+      },
+      "country_exposure_entropy": 0.7448058024596194
+    },
+    "NODE_0000169": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.03031133615034039,
+        "France": 0.0014961709872921792,
+        "India": 0.0023866034707013786,
+        "USA": 0.9626026477326244
+      },
+      "country_exposure_entropy": 0.19188631573954107
+    },
+    "NODE_0000170": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.009888976100562531,
+        "France": 0.0011617854266231797,
+        "India": 0.0018447402618917306,
+        "USA": 0.9846589603133917
+      },
+      "country_exposure_entropy": 0.10012981829911838
+    },
+    "NODE_0000171": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.00497250332931526,
+        "India": 0.0015024152029953406,
+        "USA": 0.9905070675075788
+      },
+      "country_exposure_entropy": 0.0692917595099163
+    },
+    "NODE_0000172": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.011641957448224183,
+        "France": 0.001325924356494041,
+        "India": 0.0021343517085822975,
+        "USA": 0.9821778738261068
+      },
+      "country_exposure_entropy": 0.11308783042268615
+    },
+    "NODE_0000173": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9997206512147733
+      },
+      "country_exposure_entropy": 0.0028104657934910062
+    },
+    "NODE_0000174": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.005266592147996958,
+        "India": 0.0015435776571055496,
+        "USA": 0.9901157267105198
+      },
+      "country_exposure_entropy": 0.07153494118130509
+    },
+    "NODE_0000175": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.005266592147996958,
+        "India": 0.0015435776571055496,
+        "USA": 0.9901157267105198
+      },
+      "country_exposure_entropy": 0.07153494118130509
+    },
+    "NODE_0000176": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.003340798170108984,
+        "India": 0.0012430527240223528,
+        "USA": 0.9928207921108027
+      },
+      "country_exposure_entropy": 0.05534869045699434
+    },
+    "NODE_0000177": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0041358548328307146,
+        "India": 0.0014766591354795644,
+        "USA": 0.9914225307327582
+      },
+      "country_exposure_entropy": 0.0641974648885918
+    },
+    "NODE_0000178": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.0050184655774697705,
+        "France": 0.0010904033415318106,
+        "India": 0.0017262900511929701,
+        "USA": 0.9899058968453136
+      },
+      "country_exposure_entropy": 0.07347758416417026
+    },
+    "NODE_0000179": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004810635393172896,
+        "France": 0.0010668627806983526,
+        "India": 0.0016803145354839539,
+        "USA": 0.9902181596653019
+      },
+      "country_exposure_entropy": 0.07164439831172284
+    },
+    "NODE_0000190": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.007199407610965638,
+        "France": 0.13385334551098954,
+        "India": 0.004424916254110065,
+        "USA": 0.8465456645759287
+      },
+      "country_exposure_entropy": 0.5279060269995446
+    },
+    "NODE_0000195": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.008355280149925403,
+        "France": 0.001023690725743892,
+        "India": 0.0015864014903731502,
+        "USA": 0.9867872537084049
+      },
+      "country_exposure_entropy": 0.08882386378262128
+    },
+    "NODE_0000197": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9999428801903429
+      },
+      "country_exposure_entropy": 0.0006503137789147524
+    },
+    "NODE_0000198": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "Australia": 0.004126579143643713,
+        "India": 0.0014757886471805967,
+        "USA": 0.9914333704606563
+      },
+      "country_exposure_entropy": 0.06413567177825494
+    },
+    "NODE_0000204": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 0.9995872551857632
+      },
+      "country_exposure_entropy": 0.003740921049096083
+    },
+    "Spain/Valencia002/2020": {
+      "country_exposure": "Spain",
+      "country_exposure_confidence": {
+        "Spain": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Spain/Valencia003/2020": {
+      "country_exposure": "Spain",
+      "country_exposure_confidence": {
+        "Spain": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Spain/Valencia22/2020": {
+      "country_exposure": "Spain",
+      "country_exposure_confidence": {
+        "Spain": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Spain/Valencia8/2020": {
+      "country_exposure": "Spain",
+      "country_exposure_confidence": {
+        "Spain": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "SriLanka/COV38/2020": {
+      "country_exposure": "Sri Lanka",
+      "country_exposure_confidence": {
+        "Sri Lanka": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Taiwan/CGMH-CGU-07/2020": {
+      "country_exposure": "Taiwan",
+      "country_exposure_confidence": {
+        "Taiwan": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "Thailand/SI200615-NT/2020": {
+      "country_exposure": "Thailand",
+      "country_exposure_confidence": {
+        "Thailand": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Thailand/SI204487-NT/2020": {
+      "country_exposure": "Thailand",
+      "country_exposure_confidence": {
+        "Thailand": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Thailand/SI204512-NT/2020": {
+      "country_exposure": "Thailand",
+      "country_exposure_confidence": {
+        "Thailand": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Thailand/SI204514-NT/2020": {
+      "country_exposure": "Thailand",
+      "country_exposure_confidence": {
+        "Thailand": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/AK153/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/AK178/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/AZ-ASU2923/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CDPH-UC8/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1022/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1025/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1033/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1045/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1052/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1092/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1114/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1136/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1197/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1206/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1211/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1219/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "USA/CA-CZB-1223/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1231/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB0137/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB040/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB0750/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB076/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB091/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW-4244/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW-4343/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW-4347/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW-5043/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW-5773/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/CZB-RR057-005/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/FL_5125/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/FL_9656/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/GA_2742/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/HI_7881/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/ID-UW-4254/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/ID-UW-4547/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/ID-UW-4552/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/ID-UW-6472/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/IN_2001/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "USA/LA-BIE-072/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/LA-EVTL01/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/LA_0842/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MA_8933/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20090/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20149/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20177/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "USA/MI-MDHHS-SC20224/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20239/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20242/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20252/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20281/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20284/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20302/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20314/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20360/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20389/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/NE_6605/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-CDC-SURV0319NYC/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-CDC-SURV0475NYC/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV08120/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "USA/NY-PV08455/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09029/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09099/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09116/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09145/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09153/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09179/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/OH-MDHHS-SC20370/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/PA_2735/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/PA_4395/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "USA/SC_3569/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/UNC_200181/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/UT-00009/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/UT-00291/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/UT-00297/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/UT-00348/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0007/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0009/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0018/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0038/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0053/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0067/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0077/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0110/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0115/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0120/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0185/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0188/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0197/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0199/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0205/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-1327/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-1593/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-2082/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-3881/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-4067/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-4407/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-4549/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-4897/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-5025/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-5166/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-5169/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-5756/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-6162/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-6491/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW210/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "USA/WA-UW265/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW282/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW288/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA1/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA4-UW2/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WA_5030/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WI-UW-261/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "USA/WI-UW-266/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WI-UW-268/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WI-UW-351/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "USA/WI-UW-360/2020": {
+      "country_exposure": "USA",
+      "country_exposure_confidence": {
+        "USA": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Uruguay/Mdeo-1/2020": {
+      "country_exposure": "Uruguay",
+      "country_exposure_confidence": {
+        "Uruguay": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Vietnam/nCoV-19-02S/2020": {
+      "country_exposure": "Vietnam",
+      "country_exposure_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Wuhan-Hu-1/2019": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    },
+    "Wuhan/IPBCAMS-WH-03/2019": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "Wuhan/WH01/2019": {
+      "country_exposure": "China",
+      "country_exposure_confidence": {
+        "China": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "mink/Netherlands/NB01_01KS/2020": {
+      "country_exposure": "Netherlands",
+      "country_exposure_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_exposure_entropy": -1.000088900581841e-12
+    },
+    "mink/Netherlands/NB02_06KS/2020": {
+      "country_exposure": "Netherlands",
+      "country_exposure_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_exposure_entropy": -9.99866855976916e-13
+    }
+  }
+}
